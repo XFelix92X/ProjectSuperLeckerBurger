@@ -1,5 +1,6 @@
 
-public class Burger extends Part {
+public class Burger extends Part { 
+	//ich würde statt Part "Component" schreiben @ML
 	private int fleischMenge;
 	private double burgerPrice;
 	private BurgerExtra[] burgerExtras=new BurgerExtra[0];
